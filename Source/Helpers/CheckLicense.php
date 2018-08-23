@@ -13,7 +13,7 @@ class CheckLicense
 {
 
     /*
-     * Attr REST
+     * Attributes
      */
     private $url;
     private $endPoint;
@@ -60,6 +60,7 @@ class CheckLicense
             /* Caso o CPF informado seja de um aluno licenciado retorna TRUE */
             return TRUE;
         }
+        return FALSE;
     }
 
     /********************************

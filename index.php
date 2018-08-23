@@ -38,8 +38,7 @@ $checkLicense = new Source\Helpers\CheckLicense;
             width: 70%;
             padding: 20px 10px;
             border-radius: 5px;
-            text-align: center;px;
-            width: 70%;
+            text-align: center;
         }
         .success{
             background-color: green;
@@ -54,7 +53,7 @@ $checkLicense = new Source\Helpers\CheckLicense;
 <body>
 <section class="box">
     <?php
-    if ($checkLicense->verifyLicense('02132223106')) {
+    if ($checkLicense->verifyLicense('57103035008')) {
         echo '<div class="success">&#9935 É Licenciado</div>';
     } else {
         echo '<div class="error">&#9932 Não é Licenciado</div>';
