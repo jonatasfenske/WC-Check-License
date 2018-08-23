@@ -1,0 +1,19 @@
+{
+  "name": "jonatasfenske/WC-Check-License",
+  "description": "Classe que realiza a verificação de licenciamento do Work Control",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Jônatas Fenske",
+      "email": "contato@jonatasfenske.com"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require": {},
+  "autoload": {
+    "psr-4": {
+      "Source\\": "Source"
+    }
+  }
+}
