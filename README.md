@@ -6,6 +6,7 @@ Classe que realiza a verificação de licenciamento do Work Control
 
 
 Modo de usar:
+
     $checkLicense = new Source\Helpers\CheckLicense;
 
     if ($checkLicense->verifyLicense('57103035008')) {
@@ -14,10 +15,9 @@ Modo de usar:
         echo 'Não é Licenciado';
     }
     
-    
-    
 
 .
+
 Para utilizar no Work Control, sem o autoload do Composer:
 
 1º - Renomeie o arquivo: CheckLicense.php para CheckLicense.class.php
